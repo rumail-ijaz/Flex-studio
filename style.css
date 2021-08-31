@@ -1,0 +1,1000 @@
+body,html{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#browndiv {
+    height: 125vh;
+    width: 20%;
+    background-color: #D28C88;
+    position: fixed;
+    top: -79.552px;
+
+}
+
+#carticon {
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    left: 30px;
+}
+
+#studiologo {
+    height: 95px;
+    width: 165px;
+    background-image: url(./images/studio__logo-white_2000x.png);
+    background-size: cover;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+#navbar {
+    height: 360px;
+    width: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+#navbar ul {
+    position: relative;
+    top: -5px;
+    left: -38px;
+    list-style: none;
+    line-height: 36px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #DEAAA7;
+}
+
+.fab {
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 33px;
+}
+
+.fb {
+    left: 43px;
+}
+
+.youtube {
+    left: 53px;
+}
+
+.vimeo {
+    left: 63px;
+}
+
+.pininterest {
+    left: 73px;
+}
+
+.insta {
+    left: 83px;
+}
+
+.year {
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 140px;
+}
+
+#flex {
+    color: white;
+    position: relative;
+    left: 85px;
+    font-size: 14px;
+    top: 107px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#still {
+    height: 40px;
+    width: 81%;
+    /* border: 1px solid red; */
+    color: #665B55;
+    margin-left: 255px;
+    box-sizing: border-box;
+    padding: 10px 300px;
+    font-size: 16px;
+}
+
+#image {
+    height: 526px;
+    width: 81%;
+    margin-top: -3px;
+    margin-left: 252px;
+    /* border: 1px solid red; */
+    background-image: url(./images/studio__iwto-01_1600x.jpg);
+    background-size: cover;
+}
+
+#thirddiv {
+    height: 1240px;
+    width: 80%;
+    /* border: 1px solid red; */
+    background-color: #F9F7F5;
+    left: 252px;
+    position: relative;
+}
+
+#gallery {
+    font-size: 27px;
+    position: absolute;
+    top: 60px;
+    left: 420px;
+}
+
+#line {
+    height: 1px;
+    width: 75px;
+    background-color: #D28C88;
+    position: absolute;
+    top: 120px;
+    left: 470px;
+}
+
+.Trout {
+    height: 250px;
+    width: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 140px;
+    left: 30px;
+    /* background-image: url(./images/shop195_1600x.jpg);
+    background-size: cover; */
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.Trout a img:hover {
+    opacity: 0.4;
+
+}
+
+.quick {
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #ddb8a5;
+    /* color: white; */
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.quick:hover {
+    color: white;
+    background-color: #947e73;
+}
+
+.Trout:hover .quick {
+    visibility: visible;
+
+}
+
+.Trout img {
+    height: 220px;
+    width: 220px;
+}
+
+.Troutno a {
+    color: #D28C88;
+    position: absolute;
+    top: 260px;
+    left: 90px;
+
+}
+
+.Trout p {
+    position: absolute;
+    top: 266px;
+    left: 70px;
+}
+
+.new {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #D28C88;
+    color: white;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.staff {
+    top: 10px;
+    font-size: 12px;
+    left: 150px;
+}
+
+#fourdiv {
+    height: 350px;
+    width: 80%;
+    margin-left: 251px;
+    /* border: 1px solid purple; */
+    background-color: #F0EEEA;
+    position: relative;
+}
+
+#artist {
+    color: #D28C88;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+.paragraph {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    line-height: 25px;
+    display: inline-block;
+
+}
+
+.dusrapara {
+    position: absolute;
+    line-height: 25px;
+    left: 500px;
+    top: 100px;
+    display: inline-block;
+
+}
+
+.tesrapara {
+    top: 220px;
+}
+
+.chotapara {
+    top: 220px;
+}
+
+#fivediv {
+    height: 680px;
+    width: 80%;
+    margin-left: 251px;
+    background-color: #F9F7F5;
+    /* border: 3px solid red; */
+    /* border: 1px solid purple; */
+    position: relative;
+}
+
+.tips {
+    height: 250px;
+    width: 300px;
+    border: 5px solid purple;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.tipsimage {
+    height: 135px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    background-image: url(./images/framing_1600x.jpg);
+    background-size: cover;
+    transition-duration: 0.5s;
+
+}
+
+.tipsimage:hover {
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+
+.tipstext {
+    height: 15px;
+    width: 300px;
+    position: absolute;
+    top: 155px;
+    left: 30px;
+    font-size: 22px;
+}
+
+.date {
+    height: 15px;
+    width: 70px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.greyline {
+    height: 10px;
+    width: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 223px;
+    left: 110px;
+    font-size: 13px;
+}
+
+.minread {
+    height: 10px;
+    width: 61px;
+    position: absolute;
+    top: 223px;
+    left: 125px;
+    font-size: 12px;
+}
+
+.beginerimage {
+    background-image: url(./images/post-tools2_1600x.jpg);
+
+}
+
+.studioimage {
+    background-image: url(./images/post-101_1600x.jpg);
+
+}
+
+#studiobrownlogo {
+    height: 140px;
+    width: 221px;
+    position: absolute;
+    top: 350px;
+    left: 390px;
+    background-image: url(./images/studio__logo-brown_1600x.png);
+    background-size: cover;
+}
+
+#lovely {
+    height: 40px;
+    width: 521px;
+    position: absolute;
+    top: 520px;
+    left: 260px;
+}
+
+#lovely a {
+    color: #D28C88;
+}
+
+.lastyear {
+    height: 40px;
+    width: 521px;
+    position: absolute;
+    top: 620px;
+    left: 370px;
+    font-size: 14px;
+}
+
+.lastline {
+    height: 40px;
+    width: 521px;
+    position: absolute;
+    top: 620px;
+    left: 415px;
+    font-size: 14px;
+    color: #D28C88;
+}
+
+.lastline a {
+    color: #D28C88;
+}
+
+/*media query  */
+@media screen and (max-width:700px) {
+    #browndiv {
+        height: 6vh;
+        width: 100%;
+        background-color: #D28C88;
+        position: relative;
+        top: 0px;
+    }
+    .firstline{
+        height: 2px;
+        width: 20px;
+        background-color: white ;
+        position: absolute;
+        top:15px;
+        left: 27px;
+    }
+    .dusriline{
+        top: 22px;
+    }
+    .tesriline{
+        top: 28px;
+    }
+
+    #carticon {
+        color: white;
+        position: relative;
+        top: 15px;
+        font-size: 16px;
+        left: 655px;
+    }
+    #search {
+        color: white;
+        position: relative;
+        top: -2px;
+        font-size: 16px;
+        left: 625px;
+    }
+
+    #still {
+        /* display: none; */
+        visibility: hidden;
+    }
+
+    #image {
+        height: 330px;
+        width: 100%;
+        margin-top: 120px;
+        margin-left: 0px;
+        /* border: 1px solid red; */
+        background-image: url(./images/studio__iwto-01_1600x.jpg);
+        background-size: cover;
+    }
+
+    #studiologo {
+        height: 100px;
+        width: 165px;
+        background-image: url(./images/studio__logo-brown_1600x.png);
+        background-size: cover;
+        position: relative;
+        top: 45px;
+        left: 250px;
+        /* background-color: black; */
+    }
+
+    #navbar {
+        visibility: hidden;
+    }
+
+    #navbar ul {
+        visibility: hidden;
+    }
+
+    .fab {
+        visibility: hidden;
+    }
+
+    .fb {
+        visibility: hidden;
+    }
+
+    .youtube {
+        visibility: hidden;
+    }
+
+    .vimeo {
+        visibility: hidden;
+    }
+
+    .pininterest {
+        visibility: hidden;
+    }
+
+    .insta {
+        visibility: hidden;
+    }
+
+    .year {
+        visibility: hidden;
+    }
+
+    #flex {
+        visibility: hidden;
+    }
+
+    #thirddiv {
+        height: 2750px;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-color: #F9F7F5;
+        left: 0px;
+        position: relative;
+    }
+
+    #gallery {
+        font-size: 28px;
+        position: absolute;
+        top: 60px;
+        left: 260px;
+    }
+
+    #line {
+        height: 1px;
+        width: 75px;
+        background-color: #D28C88;
+        position: absolute;
+        top: 120px;
+        left: 320px;
+    }
+
+    .Trout {
+        height: 350px;
+        width: 300px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 140px;
+        left: 30px;
+        /* background-image: url(./images/shop195_1600x.jpg);
+    background-size: cover; */
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 70px;
+    }
+
+    .Trout img {
+        height: 260px;
+        width: 280px;
+    }
+
+    #fourdiv {
+        height: 500px;
+        width: 100%;
+        margin-left: 0px;
+        /* border: 1px solid purple; */
+        background-color: #F0EEEA;
+        position: relative;
+    }
+
+    #artist {
+        color: #D28C88;
+        position: absolute;
+        left: 250px;
+        top: 30px;
+        font-style: oblique;
+        font-size: 35px;
+    }
+
+    .paragraph {
+        height: 160px;
+        width: 260px;
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        font-size: 16px;
+        display: inline-block;
+
+    }
+
+    .dusrapara {
+        position: absolute;
+        left: 380px;
+        top: 100px;
+        display: inline-block;
+
+    }
+
+    .tesrapara {
+        top: 280px;
+    }
+
+    .chotapara {
+        top: 280px;
+    }
+
+    #fivediv {
+        height: 1650px;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #F9F7F5;
+        /* border: 3px solid red; */
+        position: relative;
+    }
+
+    .tips {
+        height: 400px;
+        width: 595px;
+        border: 1px solid purple;
+        position: relative;
+        left: 40px;
+        top: 50px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .tipsimage {
+        height: 295px;
+        width: 595px;
+        position: absolute;
+        top: 0px;
+        background-image: url(./images/framing_1600x.jpg);
+        background-size: cover;
+        transition-duration: 0.5s;
+
+    }
+
+    .tipstext {
+        height: 15px;
+        width: 330px;
+        position: absolute;
+        top: 320px;
+        left: 30px;
+        font-size: 22px;
+    }
+
+    .date {
+        height: 15px;
+        width: 80px;
+        position: absolute;
+        top: 360px;
+        left: 30px;
+        font-size: 13px;
+    }
+
+    .greyline {
+        height: 10px;
+        width: 1px;
+        background-color: gray;
+        position: absolute;
+        top: 362px;
+        left: 115px;
+        font-size: 13px;
+    }
+
+    .minread {
+        height: 10px;
+        width: 61px;
+        position: absolute;
+        top: 360px;
+        left: 125px;
+        font-size: 13px;
+    }
+
+    .beginerimage {
+        background-image: url(./images/post-tools2_1600x.jpg);
+
+    }
+
+    .studioimage {
+        background-image: url(./images/post-101_1600x.jpg);
+
+    }
+
+    #studiobrownlogo {
+        height: 125px;
+        width: 221px;
+        position: absolute;
+        top: 1330px;
+        left: 220px;
+        background-image: url(./images/studio__logo-brown_1600x.png);
+        background-size: cover;
+    }
+
+    #lovely {
+        height: 100px !important;
+        width: 521px;
+        position: absolute;
+        top: 1500px;
+        left: 50px;
+        font-size: 16px;
+        /* border: 2px solid red; */
+        line-height: 30px;
+        color: gray;
+        text-align: center;
+    }
+
+    .lastyear {
+        height: 40px;
+        width: 521px;
+        position: absolute;
+        top: 1600px;
+        left: 190px;
+        font-size: 14px;
+    }
+
+    .lastline {
+        height: 40px;
+        width: 521px;
+        position: absolute;
+        top: 1600px;
+        left: 237px;
+        font-size: 14px;
+        color: #D28C88;
+    }
+}
+/*media query 500  */
+@media screen and (max-width:500px){
+#still {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    /* border: 1px solid red; */
+    color: #665B55;
+    box-sizing: border-box;
+    padding: 3px 38px;
+    font-size: 16px;
+    /* z-index: 99; */
+    margin-top: -47px;
+    margin-left: 0px;
+    visibility: visible;
+    /* position: absolute; */
+
+}
+#browndiv {
+        height: 6vh;
+        width: 100%;
+        background-color: #D28C88;
+        position: relative;
+        top: 30px;
+    }
+    .firstline{
+        height: 2px;
+        width: 20px;
+        background-color: white ;
+        position: absolute;
+        top:15px;
+        left: 27px;
+    }
+    .dusriline{
+        top: 22px;
+    }
+    .tesriline{
+        top: 28px;
+    }
+
+    #carticon {
+        color: white;
+        position: relative;
+        top: 15px;
+        font-size: 16px;
+        left: 455px;
+    }
+    #search {
+        color: white;
+        position: relative;
+        top: -2px;
+        font-size: 16px;
+        left: 430px;
+    }
+    #studiologo {
+        height: 100px;
+        width: 165px;
+        background-image: url(./images/studio__logo-brown_1600x.png);
+        background-size: cover;
+        position: relative;
+        top: 15px;
+        left: 180px;
+        /* background-color: black; */
+    }
+    #image {
+        height: 270px;
+        width: 100%;
+        margin-top: 170px;
+        margin-left: 0px;
+        /* border: 1px solid red; */
+        background-image: url(./images/studio__iwto-01_1600x.jpg);
+        background-size: cover;
+    }
+    #thirddiv {
+    height: 2050px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #F9F7F5;
+    left: 0px;
+    position: relative;
+}
+
+#gallery {
+    font-size: 27px;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+
+#line {
+    height: 1px;
+    width: 75px;
+    background-color: #D28C88;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    visibility: hidden;
+}
+
+.Trout {
+    height: 250px;
+    width: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 50px;
+    left: 0px;
+    /* background-image: url(./images/shop195_1600x.jpg);
+    background-size: cover; */
+    display: inline-block;
+}
+.Trout img {
+    height: 220px;
+    width: 220px;
+}
+#fourdiv {
+    height: 640px;
+    width: 100%;
+    /* margin-left: 251px; */
+    /* border: 1px solid purple; */
+    background-color: #F0EEEA;
+    position: relative;
+}
+
+#artist {
+    color: #D28C88;
+    position: absolute;
+    left: 170px;
+    top: 25px;
+    font-style: oblique;
+    font-size: 35px;
+}
+.paragraph {
+        height: 160px;
+        width: 200px;
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        font-size: 16px;
+        display: inline-block;
+
+    }
+    .dusrapara {
+        position: absolute;
+        left: 280px;
+        top: 100px;
+        display: inline-block;
+
+    }
+
+    .tesrapara {
+        top: 367px;
+    }
+
+    .chotapara {
+        top: 367px;
+    }
+    #fivediv {
+        height: 1380px;
+        width: 100%;
+        margin-left: 0px;
+        background-color: #F9F7F5;
+        /* border: 3px solid red; */
+        position: relative;
+    }
+    .tips {
+        height: 300px;
+        width: 450px;
+        border: 1px solid purple;
+        position: relative;
+        left: 15px;
+        top: 50px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .tipsimage {
+        height: 200px;
+        width: 450px;
+        position: absolute;
+        top: 0px;
+        background-image: url(./images/framing_1600x.jpg);
+        background-size: cover;
+        transition-duration: 0.5s;
+
+    }
+
+    .tipstext {
+        height: 15px;
+        width: 330px;
+        position: absolute;
+        top: 220px;
+        left: 30px;
+        font-size: 22px;
+    }
+
+    .date {
+        height: 15px;
+        width: 80px;
+        position: absolute;
+        top: 260px;
+        left: 30px;
+        font-size: 13px;
+    }
+
+    .greyline {
+        height: 10px;
+        width: 1px;
+        background-color: gray;
+        position: absolute;
+        top: 262px;
+        left: 115px;
+        font-size: 13px;
+    }
+
+    .minread {
+        height: 10px;
+        width: 61px;
+        position: absolute;
+        top: 260px;
+        left: 125px;
+        font-size: 13px;
+    }
+    .beginerimage {
+        background-image: url(./images/post-tools2_1600x.jpg);
+
+    }
+
+    .studioimage {
+        background-image: url(./images/post-101_1600x.jpg);
+
+    }
+    #studiobrownlogo {
+        height: 107px;
+        width: 191px;
+        position: absolute;
+        top: 1030px;
+        left: 120px;
+        background-image: url(./images/studio__logo-brown_1600x.png);
+        background-size: cover;
+    }
+
+    #lovely {
+        height: 40px;
+        width: 431px;
+        position: absolute;
+        top: 1180px;
+        left: 50px;
+        font-size: 17px;
+        border: 2px solid red;
+        /* text-align:  center  !important; */
+    }
+
+    .lastyear {
+        height: 40px;
+        width: 521px;
+        position: absolute;
+        top: 1321px;
+        left: 90px;
+        font-size: 14px;
+    }
+
+    .lastline {
+        height: 40px;
+        width: 521px;
+        position: absolute;
+        top: 1321px;
+        left: 137px;
+        font-size: 14px;
+        color: #D28C88;
+    }
+
+}
